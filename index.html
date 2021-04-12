@@ -8,7 +8,7 @@
       name="description"
       content="This is the portfolio from Daisy, a Front-end Developer based in Bay area. Check the most recent apps I have contributed on! "
     />
-    <title>Portfolio - Daisy Guan</title>
+    <title>Daisy Guan | Frontend Developer</title>
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -20,12 +20,22 @@
       integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0"
       crossorigin="anonymous"
     ></script>
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="src/style.css" />
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
       <div class="container">
-        <a class="navbar-brand" href="/index.html">Daisy Guan</a>
+        <a href="/index.html" src="images/logo.png"
+          ><img src="images/logo.png" alt="logo" width="100px"
+        /></a>
         <button
           class="navbar-toggler"
           type="button"
@@ -40,9 +50,7 @@
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="/index.html"
-                >Home</a
-              >
+              <a class="nav-link" href="/index.html#myworks">My works</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="/about.html">About me</a>
@@ -54,6 +62,7 @@
         </div>
       </div>
     </nav>
+
     <h2 class="text-center">👋 Hi I am</h2>
     <h1 class="text-center">Daisy Guan</h1>
     <h3 class="text-center">Front-end developer, based in Bay Area</h3>
@@ -61,7 +70,7 @@
       <a href="/about.html#contact" class="primary-link">Contact me</a>
       <a href="/about.html" class="secondary-link">About me</a>
     </div>
-    <div class="container">
+    <div class="container" id="myworks">
       <div class="row">
         <div class="col-sm-6">
           <img
@@ -126,5 +135,31 @@
         </div>
       </div>
     </div>
+    <footer class="bg-dark text-center text-white">
+      <div class="container p-4 pb-0">
+        <section class="mb-4">
+          <a
+            class="btn btn-outline-light btn-floating btn-sns m-1"
+            href="#!"
+            role="button"
+            ><i class="fab fa-google"></i
+          ></a>
+
+          <a
+            class="btn btn-outline-light btn-floating btn-sns m-1"
+            href="#!"
+            role="button"
+            ><i class="fab fa-instagram"></i
+          ></a>
+          <a
+            class="btn btn-outline-light btn-floating btn-sns m-1"
+            href="#!"
+            role="button"
+            ><i class="fab fa-github"></i
+          ></a>
+        </section>
+      </div>
+      <div class="text-center p-3">© 2021 Daisy Guan</div>
+    </footer>
   </body>
 </html>
