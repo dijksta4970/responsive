@@ -6,6 +6,14 @@
 
 body {
   margin-top: 100px;
+  background-color: #212529;
+}
+
+h1,
+h2,
+h3,
+p {
+  color: var(--secondary-color);
 }
 
 h1,
@@ -85,6 +93,14 @@ p {
 
 .email-link:hover {
   text-decoration: underline;
+}
+
+.btn-sns {
+  width: 40px;
+  height: 40px;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
 }
 
 @media (max-width: 576px) {
