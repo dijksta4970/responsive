@@ -4,6 +4,11 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="This is the portfolio from Daisy, a Front-end Developer based in Bay area. Check the most recent apps I have contributed on! "
+    />
+    <title>Daisy Guan | My Works</title>
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -25,16 +30,14 @@
     />
     <link rel="preconnect" href="https://fonts.gstatic.com" />
     <link
-      href="https://fonts.googleapis.com/css2?family=Major+Mono+Display&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Ubuntu+Mono:wght@700&display=swap"
       rel="stylesheet"
     />
-    <link rel="preconnect" href="https://fonts.gstatic.com" />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Train+One&display=swap"
-      rel="stylesheet"
-    />
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Major+Mono+Display&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Train+One&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="src/style.css" />
-    <title>About Daisy</title>
   </head>
   <body>
     <div id="particles-js"></div>
@@ -69,55 +72,65 @@
         </div>
       </div>
     </nav>
-    <h2 class="text-center">Wow, a whole page just</h2>
-    <h1 class="text-center">about me</h1>
-
-
-    <div class="container">
-      <div class="row mt-5 text-center">
-        <p>
-          Hi, this is Daisy. A Software Development professional excited to
-          utilize knowledge and experience to drive innovative programming and
-          development solutions for small or large organizations. Able to
-          effective design, develop, and support enterprise applications using a
-          variety of tools and languages. Adept at strategic planning,
-          statistical analysis, communication, and stakeholder management.
-        </p>
-      </div>
-      <div class="row mt-3">
+    <h2 class="text-center mb-5"> My Works</h2>
+    <div class="container mt-5" id="myworks">
+      <div class="row">
         <div class="col-sm-6">
-          <h4 class="text-center mb-4">Describe myself as an animal?</h4>
+          <img
+            src="/images/page.png"
+            class="img-fluid rounded d-none d-sm-block"
+            alt="overwatch page"
+          />
+        </div>
+        <div class="col-sm-6">
+          <h2 class="mb-3">Overwatch Info Page</h2>
           <p>
-            A penguin, lying on the iceberg, want to know what is under the sea.
-            The computer science is pretty like the ocean, and I am leaning on
-            the iceberg, which is the coding skills, keeping my curiosity of the
-            iceberg and the sea, to do my adventure.
+            The first project I finished when I started to learn the Froent-end Develop.I used the basics of HTML, CSS, and Javascript. The project was very simple and straightforward, but it was also a milestone when I started front-end development. I’m updating this simple project in the hope of applying more new knowledge.
           </p>
+          <div class="mt-5">
+            <a href="https://s3.amazonaws.com/shecodesio-production/challenge_submissions/files/000/228/257/original/project.html?1612077151" class="primary-link">Launch the Page</a>
+          </div>
+        </div>
+      </div>
+      <div class="row mt-5">
+        <div class="col-sm-6">
+          <h2 class="mb-3">Weather App</h2>
+          <p>
+            A detailed and convenient weather forecast search app. Forecasts for the next six hours and five days were obtained either by entering the city name or by sharing the location information. In this app I contained functions like unit conversion, humidity, weather conditions, and feels-like temperature.
+          </p>
+          <div class="mt-5">
+            <a href="https://festive-wiles-7b5f52.netlify.app/" class="primary-link">Launch Weather App</a>
+          </div>
         </div>
         <div class="col-sm-6">
           <img
-            src="/images/ponice.jpg"
+            src="/images/weather.png"
             class="img-fluid rounded d-none d-sm-block"
-            alt="yoga app"
+            alt="weather app"
           />
-          <p class="text-center mt-1" id="iceberg">
-            <a
-              href="https://www.flickr.com/photos/rockle/8698927480/in/photolist-EYorAy-JcQjxV-2kDQXQz-AgjSzW-xg1Ach-ehKsVW-dyp1sv-dyoZQZ-dyuu5w-dyp1gX-efGh5h-7FrwXF-G1E25T-61vj6M-opFBTP-jfcu1-jf9wH-GRMgA7-882u3J-JeiHw1"
-              id="icebergPhoto"
-              >Penguins on an Iceberg
-            </a>
-            by Rachel Gonzales
+        </div>
+      </div>
+      <div class="row mt-5">
+        <div class="col-sm-6">
+          <img
+            src="/images/coming soon.png"
+            class="img-fluid rounded d-none d-sm-block"
+            alt="yogurt app"
+          />
+        </div>
+        <div class="col-sm-6">
+          <h2 class="mb-3">Coming Soon</h2>
+          <p>
+            I will keep working and learning, bring more great applictions!
           </p>
+          <div class="mt-5">
+            <a href="#" class="primary-link">Coming Soon!</a>
+          </div>
         </div>
       </div>
     </div>
-
-    <div class="mt-5" id="contact">
-      <h3 class="text-center">Need Help?</h3>
-      <a href="mailto:shinegzq@gmail.com" class="email-link">
-        📧shinegzq@gmail.com
-      </a>
-    </div>
+    
+    
       <footer class="bg-dark text-center text-white fixed-bottom">
         <div class="container p-4 pb-0">
           <section class="mb-4">
@@ -145,7 +158,8 @@
         <div class="text-center p-3 copyright">© 2021 Daisy Guan</div>
       </footer>
 
-    <script src="http://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
     <script src="./src/app.js"></script>
   </body>
 </html>
